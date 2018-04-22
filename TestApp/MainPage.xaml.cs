@@ -30,7 +30,7 @@ namespace ExampleUWPNotification
             ToastNotificationManager.CreateToastNotifier().Show(toast);
         }
 
-        TileContent content = new TileContent()
+        TileContent content = new TileContent()  
         {
             Visual = new TileVisual()
             {
@@ -41,7 +41,7 @@ namespace ExampleUWPNotification
                         Children =
                         {
                             new AdaptiveText()
-                            {
+                            {  
                                 Text = title,
                              },
                             new AdaptiveText()
