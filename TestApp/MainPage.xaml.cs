@@ -24,7 +24,7 @@ namespace ExampleUWPNotification
             TileUpdateManager.CreateTileUpdaterForApplication().Update(notification);
         }
 
-        private void toastButton_Click(object sender, RoutedEventArgs e)
+        private void toastButton_Click(object sender, RoutedEventArgs e)  
         {
             ToastNotification toast = new ToastNotification(toastContent.GetXml());
             ToastNotificationManager.CreateToastNotifier().Show(toast);

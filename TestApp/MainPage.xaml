@@ -9,10 +9,10 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0" Width="400" Height="600">
         <Button x:Name="tileButton" Click="tileButton_Click" Content="Send
-        Tile" Margin="64,259,223,309" VerticalAlignment="Center"
+        Tile" Margin="64,263,223,305" VerticalAlignment="Center"
         HorizontalAlignment="Center"/>
         <Button x:Name="toastButton" Click="toastButton_Click" Content="Send
-        Toast" HorizontalAlignment="Center" Margin="219,258,56,310"
+        Toast" HorizontalAlignment="Center" Margin="219,262,56,306"
         VerticalAlignment="Center"/>
     </Grid>
 </Page>
